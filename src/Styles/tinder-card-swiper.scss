@@ -1,0 +1,22 @@
+.card-swiper-container {
+  flex: 1;
+  position: relative;
+
+  .card-container {
+    height: 100%;
+    width: 100%;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
+
+    .img {
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+      width: 100%;
+      border-radius: 1rem;
+      cursor: pointer;
+    }
+  }
+}

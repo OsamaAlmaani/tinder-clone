@@ -1,0 +1,26 @@
+.mobile-view {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  .slide-enter {
+    transform: translateX(-100vw);
+  }
+
+  .slide-enter-active {
+    transform: translateX(0);
+    transition: transform 250ms ease-in;
+  }
+
+  .slide-exit {
+    transform: translateX(0);
+  }
+
+  .slide-exit-active {
+    transform: translateX(100vw);
+    transition: transform 250ms ease-in;
+  }
+}
